@@ -39,7 +39,7 @@ function App() {
     <View className="App" style={{ backgroundColor: Colors.primary }} id="app">
       <View className="App-header" id={"home"}>
         <img src={logo} className="App-logo" alt="logo" />
-        <Title lightColor>PixelHeper</Title>
+        <Title lightColor>PixelHelper</Title>
         <Label>{t?.txt1}</Label>
         <ViewRow style={{ paddingTop: 30, justifyContent: "space-between", gap: 20 }}>
           <Bt
@@ -90,7 +90,7 @@ function App() {
       <View className="App-header" id={"howto"} style={{ backgroundColor: Colors.secondaryDark }}>
         <ViewRow style={{ padding: 20, alignItems: "center" }}>
           <img src={logo} className="App-logo-small" alt="logo" />
-          <Title lightColor>PixelHeper</Title>
+          <Title lightColor>PixelHelper</Title>
           <Bt
             style={portrait ? {} : { position: "absolute", right: 10 }}
             onClick={() => {
@@ -133,7 +133,7 @@ function App() {
       <View className="App-header" id={"howtoledpanel"}>
         <ViewRow style={{ padding: 20, alignItems: "center" }}>
           <img src={logo} className="App-logo-small" alt="logo" />
-          <Title lightColor>PixelHeper - {t?.led_panel}</Title>{" "}
+          <Title lightColor>PixelHelper - {t?.led_panel}</Title>{" "}
           <Bt
             style={portrait ? {} : { position: "absolute", right: 10 }}
             onClick={() => {
@@ -178,7 +178,7 @@ function App() {
       <View className="App-header" id={"howtoprojector"} style={{ backgroundColor: Colors.secondaryDark }}>
         <ViewRow style={{ padding: 20, alignItems: "center" }}>
           <img src={logo} className="App-logo-small" alt="logo" />
-          <Title lightColor>PixelHeper - {t?.projection}</Title>{" "}
+          <Title lightColor>PixelHelper - {t?.projection}</Title>{" "}
           <Bt
             style={portrait ? {} : { position: "absolute", right: 10 }}
             onClick={() => {
