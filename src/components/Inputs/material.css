@@ -1,0 +1,83 @@
+fieldset{
+    border-width: 0px !important;
+}
+.MuiAutocomplete-popper *{
+    background-color: var(--primary) !important;
+}
+.MuiAutocomplete-popper {
+    margin-top:-3px !important;
+    /* border-radius: 20px     !important; */
+    /* border: solid 1px var(--secondary); */
+    overflow:hidden;
+}
+.MuiAutocomplete-option{
+    font-family:Verdana, Geneva, Tahoma, sans-serif !important;
+    font-size: 14px !important;
+    padding: 5px !important;
+    min-height: 20px !important;
+    border-radius:20px;
+    transition: all 500ms ease;
+}
+.MuiAutocomplete-option.Mui-focused{
+    background-color: var(--secondaryDark) !important;
+}
+.MuiAutocomplete-noOptions{
+    font-family:Verdana, Geneva, Tahoma, sans-serif !important;
+    font-size: 14px !important;
+    padding: 5px !important;
+    min-height: 0px !important;
+    border-radius:20px;
+    color: var(--secondary) !important;
+    transition: all 500ms ease;
+}
+
+/* FORM CONTROL */
+.MuiPaper-root {
+    font-family:Verdana, Geneva, Tahoma, sans-serif !important;
+    font-size: 14px !important;
+    background-color: var(--primary ) !important;
+    border: solid 1px var(--secondary) !important;
+    color: var(--secondary) !important;
+}
+
+.MuiInputBase-root {    
+    margin-top: 0px !important;
+    border-radius: 5px !important;
+    border: solid 1px var(--secondary) !important;
+    padding: 0px !important;
+    overflow: hidden;
+}
+
+.MuiInputBase-input{
+    font-family:Verdana, Geneva, Tahoma, sans-serif !important;
+    font-size: 14px !important;
+    color: var(--secondary) !important;
+    padding: 5px !important;
+}
+
+.MuiButtonBase-root {
+    margin-right:0px !important;
+    background-color: transparent !important;
+    color: var(--secondary) !important;
+    padding: 2px !important;
+    transition: all 500ms ease;    
+}
+.MuiButtonBase-root:hover {
+    background-color: var(--secondaryDark) !important;
+}
+.MuiButtonBase-root[aria-selected="true"] {
+    background-color: var(--secondaryDark) !important;
+}
+
+.MuiClockPointer-root{
+    background-color: var(--secondaryDark) !important;
+}.MuiClockPointer-thumb{
+    background-color: var(--secondaryDark) !important;
+    border-color: var(--secondaryDark) !important;
+}
+.MuiClockNumber-root{
+    color:var(--secondary) !important;
+}
+.MuiDayPicker-weekDayLabel{
+    color: var(--secondary) !important;
+}

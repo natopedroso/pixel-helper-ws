@@ -1,0 +1,47 @@
+{
+  "start": "Início",
+
+  "txt1": "O App Calcula Projeção Mapeada e Pixeis para Painel de Led.",
+  "how_to": "Como Usar",
+  "download": "Baixar",
+
+  "how_to_txt": "Escolha o que você deseja Calcular",
+  "led_panel": "Painel de Led",
+  "projection": "Projetores",
+
+  "developer": "Desenvolvedor",
+
+  "back": "Voltar",
+
+  "how_to_led_panel_txt1": "O App inicia com 1 preset para demonstrar;",
+  "how_to_led_panel_txt2": "Você pode adicionar um novo preset clicando no botão +;",
+  "how_to_led_panel_txt3": "Você pode copiar um preset clicando no botão copiar (dois quadrados);",
+  "how_to_led_panel_txt4": "Você pode apagar um preset clicando no botão apagar (lixeira);",
+  "how_to_led_panel_txt6": "Você pode compartilhar seu Calculo clicando no botão compartilhar (no final do formulário);",
+  "how_to_led_panel_txt5": "Para calcular você precisa preencher os seguintes campos:",
+  "gabinet_quantity_x_y": "Quantidade de Gabinetes X,Y",
+  "gabinet_size_m_x_y": "Tamanho do Gabinete em metros X,Y",
+  "gabinet_pixels_x_y": "Pixels do Gabinete X,Y",
+  "gabinet_weight": "Peso do gabinete",
+  "consumption_by_m2_or_q": "Consumo em Watts do m² ou Quantidade (Selecionando pelos CheckBoxes)",
+
+  "how_to_projector_txt1": "O App inicia com 1 preset para demonstrar;",
+  "how_to_projector_txt2": "Você pode adicionar um novo preset clicando no botão +;",
+  "how_to_projector_txt3": "Você pode copiar um preset clicando no botão copiar (dois quadrados);",
+  "how_to_projector_txt4": "Você pode apagar um preset clicando no botão apagar (lixeira);",
+  "how_to_projector_txt6": "Você pode compartilhar seu Calculo clicando no botão compartilhar (no final do formulário);",
+  "how_to_projector_txt5": "Para calcular você precisa preencher os seguintes campos:",
+  "screen_size_m_x_y": "Tamanho da Tela em metros X,Y",
+  "projector_resolution_x_y": "Resolução do Projetor X,Y",
+  "projector_lens_factor": "Fator da Lente",
+  "projector_lumens": "Lumens do Projetor",
+
+  "donate_msg1": " Se o app PixelHelper te ajudou, 😍",
+  "donate_msg2": "considere me fazer uma doação. 🤝",
+  "donate_msg3": "Me ajuda a pagar despesas para manter o app. 😉",
+
+  "donate": "Fazer Doação",
+  "donate_link": "https://www.paypal.com/donate/?hosted_button_id=6986R8GPSSYBN&lang=pt-br",
+
+  "last": "Fim"
+}

@@ -1,0 +1,157 @@
+:root{
+  --primary:#092037;
+  --secondary:#b6c5ff;
+  --secondaryDark:#134679;
+  --danger:#c77;
+  --dangerLight:#faa;
+
+  --waiting:#611;
+  --in:#116;
+  --out:#161;
+}
+
+body,html {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0px;
+  border-radius: 10px !important;
+}
+#app{
+  display: flex;
+  background-color: var(--primary);
+  flex-direction: column;
+  flex: 1;
+  padding:15px;
+  max-height: calc((100vh) - (2 * (15px)));
+  border-radius: 10px !important;
+  border:solid 1px var(--secondaryDark);
+  overflow: hidden;
+}
+
+@media print{
+  .loading {
+    display: none;
+  }
+  #app{
+    border: none;
+    overflow: visible;
+  }
+}
+
+table{
+  margin: 0px;
+}
+
+input::placeholder{
+  color: currentColor;
+}
+
+a{
+  text-decoration: none;
+}
+
+div,input,label,pre,textarea{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--secondary);
+  outline: none;
+}
+
+::selection{
+  color: var(--secondary);
+  background-color: var(--secondaryDark);
+}
+
+/*SCROLL*/
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+  border-radius: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--primary);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--secondaryDark);
+  border-radius: 5px;
+  transition: all 500 ease-in-out;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary);
+}
+
+/**
+  *DETAILS SUMMARY
+  */
+  details summary::-webkit-details-marker {
+    display: none;
+}
+
+details,
+details summary {
+    display: flex;
+    gap: 5px 5px;
+    list-style: none !important;
+}
+
+details:focus,
+details summary:focus {
+    outline: none;
+}
+
+details {
+    transition: max-height 10s ease-in;
+}
+
+details:not([open]) {
+}
+
+details[open] {
+    max-height: 99999px;
+}
+
+details:not([open]) summary:first-child:before {
+    content: "▼" !important;
+    font-size: 20px;
+    color: var(--bs-primaryDark);
+    width: 25px;
+    height: 25px;
+    transform: rotate(-90deg) ;
+    animation: det_open .5s ease;
+}
+
+@keyframes det_open {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-90deg) ;
+    }
+}
+
+details[open] summary::before {
+    content: "▼";   
+    font-size: 20px; 
+    color: var(--bs-primaryDark);
+    width: 25px;
+    height: 25px;
+    animation: det_close .5s ease;
+}
+
+@keyframes det_close {
+    0% {
+        transform: rotate(-90deg);
+    }
+
+    100% {
+        transform: rotate(0deg) ;
+    }
+}

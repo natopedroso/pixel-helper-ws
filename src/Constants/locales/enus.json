@@ -1,0 +1,47 @@
+{
+  "start": "Start",
+
+  "txt1": "The App Calculate Projection Mapping and Led Panel pixels.",
+  "how_to": "How To",
+  "download": "Download",
+
+  "how_to_txt": "Choose what you want to calculate",
+  "led_panel": "Led Panel",
+  "projection": "Projectors",
+
+  "developer": "Developer",
+
+  "back": "Back",
+
+  "how_to_led_panel_txt1": "The App starts with 1 preset to demonstrate;",
+  "how_to_led_panel_txt2": "You can create a new preset clicking on + button;",
+  "how_to_led_panel_txt3": "You can copy a preset clicking on copy button (two squares);",
+  "how_to_led_panel_txt4": "You can delete a preset clicking on delete button (trash);",
+  "how_to_led_panel_txt6": "You can share the Result clicking on share button (in the end of Form);",
+  "how_to_led_panel_txt5": "To Calculate you need to input the following variables:",
+  "gabinet_quantity_x_y": "Gabinet Quantity X,Y",
+  "gabinet_size_m_x_y": "Gabinet Size in metters X,Y",
+  "gabinet_pixels_x_y": "Gabinet Pixels X,Y",
+  "gabinet_weight": "Gabinet Weight",
+  "consumption_by_m2_or_q": "Consumption in Watts from m² or Quantity (Selectin it by the CheckBoxes)",
+
+  "how_to_projector_txt1": "The App starts with 1 preset to demonstrate;",
+  "how_to_projector_txt2": "You can create a new preset clicking on + button;",
+  "how_to_projector_txt3": "You can copy a preset clicking on copy button (two squares);",
+  "how_to_projector_txt4": "You can delete a preset clicking on delete button (trash);",
+  "how_to_projector_txt6": "You can share the Result clicking on share button (in the end of Form);",
+  "how_to_projector_txt5": "To Calculate you need to input the following variables:",
+  "screen_size_m_x_y": "Screen Size in metters X,Y",
+  "projector_resolution_x_y": "Projector Resolution X,Y",
+  "projector_lens_factor": "Projector Lens Factor",
+  "projector_lumens": "Projector Lumens",
+
+  "donate_msg1": "If the PixelHelper app helped you. 😍",
+  "donate_msg2": "Consider donate me. 🤝",
+  "donate_msg3": "Help me with bills to keep the app. 😉",
+
+  "donate": "Donate",
+  "donate_link": "https://www.paypal.com/donate/?hosted_button_id=KNJTW4R865H4Y",
+
+  "last": "Last"
+}
