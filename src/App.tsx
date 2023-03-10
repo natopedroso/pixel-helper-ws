@@ -51,19 +51,16 @@ function App() {
             <FaQuestionCircle />
             {t?.how_to}
           </Bt>
-          <Bt
-            onClick={() => {
-              const to = document.getElementById("howto");
-              scroll.scrollTo(to.offsetTop, { duration: 500 });
-            }}
-          >
-            <FaApple />
-            {t?.download} Apple Store
-          </Bt>
-          <Bt>
+          <a href="https://apps.apple.com/br/app/pixelhelper/id6445954946">
+            <Bt>
+              <FaApple />
+              {t?.download} Apple Store
+            </Bt>
+          </a>
+          {/* <Bt>
             <FaAndroid />
             {t?.download} PlayStore
-          </Bt>
+          </Bt> */}
         </ViewRow>
         <ViewRow style={{ marginTop: 20, gap: 20, flexWrap: "wrap" }}>
           <View style={{ alignItems: "flex-start" }}>
