@@ -51,7 +51,7 @@ function App() {
             <FaQuestionCircle />
             {t?.how_to}
           </Bt>
-          <a href="https://apps.apple.com/br/app/pixelhelper/id6445954946">
+          <a href="https://apps.apple.com/br/app/pixelhelper/id6445954946" target={"_blank"} rel="noreferrer">
             <Bt>
               <FaApple />
               {t?.download} Apple Store
